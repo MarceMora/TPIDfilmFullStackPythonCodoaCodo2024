@@ -207,6 +207,30 @@
                         </form> 
                     </div>
             </section>
+            <section class="contenedor_register" id="registro"  >
+                <div class="register">
+                <h2>Formulario de Registro</h2>
+                <p>Debe rellenar todos los campos para poder registrarse</p>
+                </div>
+                <div class="register_form">
+                    <form  class="register_data" action="procesar_registro.php" method="post" id="formulario" onsubmit="return validarFormulario()">
+                        <label for="nombre">Nombre</label>
+                        <input class="register_form_in" type="text" name="name" id="name" placeholder="Nombre...">
+                        <label for="apellido">Apellido</label>
+                        <input class="register_form_in" type="text" name="lastname" id="lastname" placeholder="Apellido...">
+                        <label for="correo">Email</label>
+                        <input class="register_form_in" type="email" name="correo" id="correo" placeholder="example@correo.com">
+                        <label for="contraseña">Contraseña</label>
+                        <input class="register_form_in"  type="password" name="contraseña" id="contraseña" placeholder="●●●●●●●●●" >
+                        <label for="repeatpassword">Repetir Contraseña</label>
+                        <input class="register_form_in" type="password" name="repeatpassword" id="repeatpassword" placeholder="●●●●●●●●●">
+                        
+                    <div class="submit">
+                        <button class="register_btn" type="submit">Registrar</button>
+                    </div>
+                    </form>
+                </div>
+            </section>
     </main>
 </body>
 </html>
