@@ -256,16 +256,16 @@ margin-top: 50px;
 
 @keyframes banner{
 	0%, 20%{
-		background-image: url("../img/1.png");
+		background-image: url("https://marcemora.github.io/TPIDfilmFullStackPythonCodoaCodo2024/img/1.png");
 	}
 	25%, 45%{
-		background-image: url("../img/2.png");
+		background-image: url("https://marcemora.github.io/TPIDfilmFullStackPythonCodoaCodo2024/img/2.png");
 	}
 	50%, 70%{
-		background-image: url("../img/3.png");
+		background-image: url("https://marcemora.github.io/TPIDfilmFullStackPythonCodoaCodo2024/img/3.png");
 	}
 	75%, 100%{
-		background-image: url("../img/4.png");
+		background-image: url("https://marcemora.github.io/TPIDfilmFullStackPythonCodoaCodo2024/img/4.png");
 	}
 }
 .capa{
