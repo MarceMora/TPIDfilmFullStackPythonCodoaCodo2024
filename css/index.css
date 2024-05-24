@@ -112,14 +112,16 @@ margin-top: 20px;
 margin-bottom: 10px;
 font-family: var(--alternative-font);
 
+
 }
 
 .navbar__search {
 display: flex;
 justify-content: space-between;
 align-items: center;
+
 font-size: var(--font-medium);
- 
+
 }
 
 .logo{
@@ -163,8 +165,11 @@ top: 50%;
 transform: translateY(-50%);
 }
 
-.navbar__p{
+.nav__title{
 color:var(--primary-solid);
+text-align: center;
+font-size: large;
+margin-right: 9rem;
 }
 
 hr{

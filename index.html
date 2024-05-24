@@ -11,9 +11,14 @@
 <body>
     <header class="container" >
         <section class="navbar__ini" >
+            <h1 class="nav__title">La mejor Web de Peliculas</h1>
             <ul class="navbar__search" >
+                <li>
+                <picture>
                 <img class="logo" src="img/LogoDFilms.png" alt="logo_de_la_web" >
-                <li class="navbar__p"><span><p>La Mejor Web de Peliculas</p></span></li>
+                </picture>
+                </li>
+               
                 <li class="input-wrapper"> <!--<i class="fa-solid fa-magnifying-glass"></i>-->
                     <input class="input" type="search" name="Search" id="Search" placeholder="Search...">
                     <svg xmlns="http://www.w3.org/2000/svg" class="input-icon" viewBox="0 0 20 20" fill="currentColor">
@@ -75,10 +80,10 @@
                 <h2 class="desc_cont_title">
                     DFILM
                 </h2>
-                <p  clas="desc_cont_text">
+                <p >
                     En Club de cine, nuestro objetivo es reunirnos <br> regularmente para compartir ideas y disfrutar de <br> actividades en base a nuestro interés común. <br> DFilm promueve y espera una actitud de <br> apoyo y sin juicios por parte de los participantes. <br> Si te interesa ser parte o quieres saber más, no <br> dudes en ponerte en contacto con nosotros.
                 </p>
-                <a class="desc_cont_link" link rel="" href="#">Mas informacion.</a>
+                <a class="desc_cont_link" href="#">Mas informacion.</a>
             </div>
             </div>
         </section>
@@ -146,12 +151,12 @@
                 <div class="contacto_datos" >
                     <h3 class="contacto_title">Contacto</h3>
                         <p class="contacto_adress" >Guardia Vieja, C1192 Cdad. Autónoma de Buenos Aires,Argentina</p>
-                        <a class="contacto_adress" href="mailto: marcelo6974@gmail.com">marcelo6974@gmail.com</a>
+                        <a class="contacto_adress" href="mailto:marcelo6974@gmail.com">marcelo6974@gmail.com</a>
                         <a class="contacto_adress" href="tel:+54-911-2345667">Telefono: 911-456897</a>
                     </div>
                     <h2 class="title_form">FORMULARIO DE CONTACTO</h2>
                     <div class="contacto_form"  >
-                        <form class= "datos" action="mundoFilm.js" method="#" id="form">
+                        <form class= "datos" action="mundoFilm.js" method="post" id="form">
                             <div class="form-control">
                             <label class="tag" for="name">Nombre</label>
                             <input class="inp" type="text" name="nombre" id="nombre" placeholder="Ingresa tu nombre">
@@ -195,7 +200,7 @@
                             <small>Error message</small>
                             </div>
                             <div class="form-control">
-                            <label class="tag men" for="mensaje">Mensaje</label>
+                            <label class="tag men" for="message">Mensaje</label>
                             <textarea class="text_a" name="message" id="message" cols="30" rows="10" placeholder="Escriba su mensaje..."></textarea>
                             <i class="fas fa-check-circle"></i>
                             <i class="fas fa-exclamation-circle"></i>
@@ -230,21 +235,21 @@
                 </div>
             </section>
             <section class="login__box container"  id="login" >
-                <form class="login__form" action="" method="post" id="formLogin">
+                <form class="login__form" action="procesar_login.php" method="post" id="formLogin">
                     <h3 class="login__title">INGRESAR A MI CUENTA</h3>
                 <div class="form__item">
                     <label for="email" class="form__label">Email:</label>
-                    <input class="form__input" type="email" name="mail" id="mail" placeholder="Pedro1985@correo.com" require>
+                    <input class="form__input" type="email" name="mail" id="mail" placeholder="Pedro1985@correo.com">
                 </div>
                 <div class="form__item">
                     <label for="password" class="form__label">Contraseña:</label>
-                    <input class="form__input" type="password" name="password" id="password" placeholder="●●●●●●●●●" require>
+                    <input class="form__input" type="password" name="password" id="password" placeholder="●●●●●●●●●">
                 </div>
                 <div class="form__submit">
                     
                     <button class="form__btn" type="submit">Ingresar</button>
                     <div class="form__remember">
-                        <input class="form-check-login" type="checkbox" name="remember" id="remember" require>
+                        <input class="form-check-login" type="checkbox" name="remember" id="remember">
                         <label class="checkbox__label--login" for="remember">Recordarme</label>
                     </div>
                 </div>
