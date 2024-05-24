@@ -256,16 +256,16 @@ margin-top: 50px;
 
 @keyframes banner{
 	0%, 20%{
-		background-image: url("/img/1.png");
+		background-image: url("img/1.png");
 	}
 	25%, 45%{
-		background-image: url("/img/2.png");
+		background-image: url("img/2.png");
 	}
 	50%, 70%{
-		background-image: url("/img/3.png");
+		background-image: url("img/3.png");
 	}
 	75%, 100%{
-		background-image: url("/img/4.png");
+		background-image: url("img/4.png");
 	}
 }
 .capa{
@@ -325,7 +325,7 @@ margin-top: 50px;
 }
 .description_cont{
     
-    background-image: url(/img/Dreamy\ Theater.webp);
+    background-image: url(img/Dreamy\ Theater.webp);
     /*position:relative;*/
     display: flex;
     flex-direction: column;
