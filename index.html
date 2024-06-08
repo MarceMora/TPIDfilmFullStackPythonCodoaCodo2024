@@ -9,7 +9,7 @@
     <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
 </head>
 <body>
-    <header class="container" >
+    <header class="" >
         <section class="navbar__ini" >
             <h1 class="nav__title">La mejor Web de Peliculas</h1>
             <ul class="navbar__search" >
@@ -235,21 +235,21 @@
                 </div>
             </section>
             <section class="login__box container"  id="login" >
-                <form class="login__form" action="procesar_login.php" method="post" id="formLogin">
+                <form class="login__form" action="#" method="post" id="formLogin">
                     <h3 class="login__title">INGRESAR A MI CUENTA</h3>
                 <div class="form__item">
                     <label for="email" class="form__label">Email:</label>
-                    <input class="form__input" type="email" name="mail" id="mail" placeholder="Pedro1985@correo.com">
+                    <input class="form__input" type="email" name="mail" id="mail" placeholder="Pedro1985@correo.com" required>
                 </div>
                 <div class="form__item">
                     <label for="password" class="form__label">Contraseña:</label>
-                    <input class="form__input" type="password" name="password" id="password" placeholder="●●●●●●●●●">
+                    <input class="form__input" type="password" name="password" id="password" placeholder="●●●●●●●●●" required>
                 </div>
                 <div class="form__submit">
                     
                     <button class="form__btn" type="submit">Ingresar</button>
                     <div class="form__remember">
-                        <input class="form-check-login" type="checkbox" name="remember" id="remember">
+                        <input class="form-check-login" type="checkbox" name="remember" id="remember" required>
                         <label class="checkbox__label--login" for="remember">Recordarme</label>
                     </div>
                 </div>
@@ -263,7 +263,7 @@
                     ¿ Que tipo de servicios ofrece este sitio Web ?
                 </summary>
                 <p>
-                    Nosotros ofrecemos un catalogo de productos en linea que los usuarios pueden adquirir a precios favorables. 
+                    Nosotros ofrecemos un catalogo de peliculas en linea que los usuarios pueden adquirir mediante <br> planes mensuales a precios favorables. 
                 </p>
             </details>
             <details class="faqs">
@@ -271,28 +271,28 @@
                     ¿Cueles son los metodos de pago ?
                 </summary>
                 <p>
-                    Aceptamos pagos con tarjeta de credito Visa y Mastercard, Efectivo, Pago Movil,Transferencias, etc.
+                    Aceptamos pagos con tarjeta de credito Visa y Mastercard, Efectivo, Mercado Pago y Transferencias, etc.
                 </p>
             </details>
             <details class="faqs">
                 <summary>
-                    ¿ Aceptan devoluciones del producto por defectos o fallos?
+                    ¿ Como es el proceso de afiliacion a los planes ?
                 </summary>
                 <p>
-                    Si, aceptamos devoluciones siempre que sean inherentes a defectos de fabricacion, fallas electricas por mala manipulacion del producto, corren por cuenta del ususario.
+                    En nuestro portal Web podra encontrar la informacion pertinente sobre los precios de los <br> planes y los beneficion de cada uno. Registrese y afiliate.
                 </p>
             </details>
             <details class="faqs">
                 <summary>
-                    ¿Dan credito en la adquisicion de los productos.?
+                    ¿ Cuantos planes de afiliacion tienen. ?
                 </summary>
                 <p>
-                    Si, ofrecemos planes sin interes desde 3 hasta 6 cuotas.
+                    Tenemos el plan Economico o Basico, el plan Silver con mayor accecibilidad a peliculas y el <br>plan Premium que te permite disfrutar de todos nuestros servicios.
                 </p>
             </details>
         </section>
     </main>
-    <footer class="container">
+    <footer class="">
         <div class="row">
             <div class="col span-1-of-2">
                 <ul class="footer-nav">
@@ -315,20 +315,16 @@
         </div>
         <div class="text">
             <p>
-                Esta pagina Web fue creada como parte del trabajo integrador final del curso Front Full Stack Python del Programa Codo a Codo usando HTML5, CSS y JavaScript por los integrantes del grupo 17, Marcelo Mora, Ana Galean, Gabriel Caballero y Nicolas Bourguignon. Sin derechos de autor.<br>
+                Esta pagina Web fue creada como parte del trabajo integrador final del curso Front Full Stack Python del Programa Codo a Codo usando HTML, CSS y Java Script. Sin derechos de autor.<br>
                 Fue creada para quien la necesite! Asi que hagan lo que deseen con ella y disfruten.
             </p>
             <p>
-                Hecha con mucho cariño en la ciudad de Buenos Aires, Argentina, Abril 2024.
+                Hecha en la ciudad de Buenos Aires, Argentina, Abril 2024.
             </p>
         </div>
     </footer>
     <script src="js/validarContacto.js"></script>
     <script src="js/validarRegistro.js"></script>
-    <script src="js/aos.jsdescarga"></script>
-    <script>
-        AOS.init();
-    </script>
     <script src="https://kit.fontawesome.com/3a92d67e88.js" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/iconify-icon@1.0.8/dist/iconify-icon.min.js"></script> 
 </body>
