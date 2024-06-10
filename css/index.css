@@ -371,6 +371,7 @@ margin-top: 50px;
 
 .peliculas{
     margin-top: 50px;
+    margin-left: 35px;
     
    
 }
@@ -510,7 +511,7 @@ margin-top: 50px;
     margin-top: 10px;
     height: 50px;
     width: 150px;
-    margin-left: 120px;
+    margin-left: 160px;
     font-size: var(--font-xxsmall);
     background-color: whitesmoke;
     transition: all .4s ease-in-out;
@@ -889,14 +890,21 @@ h2{
 @media  only screen and (max-width: 1024px) {
     
     .banner{
-        width: 80%;
-        margin-left: 100px;
+        width: 98%;
+        margin-left:10px;
+        
     }
+    
     .navbar__search{
         display: flex;
         justify-content: space-around;
         align-items: center;
-        font-size: var(--font-small); 
+        font-size: var(--font-xsmall); 
+    }
+    .input{
+        width:70%;
+    
+       
     }
     .navbar__menu{
         display: flex;
@@ -905,8 +913,10 @@ h2{
         justify-content:space-around;
         color: var(--primary-solid);
         font-size: var(--font-xxsmall);
-        
-        
+    }
+
+    .navbar__link{
+        font-size: small;
     }
     .description{
         width: 70%; 
@@ -922,6 +932,12 @@ h2{
         margin-left: -500px;
         background-color: #FAEED1;
     }
+
+   .peliculas{
+        margin-left: 20px;
+        width: 95%;
+
+    }
     .login__box{
         width: 100%;
         margin-left:160px ;
@@ -935,26 +951,30 @@ h2{
     
         float:right;
     }
-
-
+    .btn{
+        margin-left: 120px;
     }
+}
     
 
-@media  only screen and (max-width: 768px){
+@media  only screen and (max-width: 800px){
     .banner{
-        width: 80%;
+        width: 120%;
         height: 400px;
-        margin-left: 80px;
+       margin-left:0px;
+       margin-right:4px;
         font-size: x-small;
         margin-top: 100px;
     }
     header{
-        width: 100%;
-        margin-left: 50px;
+        width: 110%;
+        margin-left: 2px;
+        
     }
-    .navbar__p{
-        font-size:medium;
-
+    .navbar__link{
+        font-size: x-small;
+        margin-right: 20px;
+        
     }
     .navbar__search{
         display: flex;
@@ -965,7 +985,7 @@ h2{
         
     }
     .logo{
-        width: 90px;
+        width: 80px;
     }
     .input-wrapper{
         width: 190px;
@@ -975,10 +995,20 @@ h2{
         width: 20px;
         height: 20px;
     }
+
+    .peliculas{
+        
+        width: 90%;
+
+    }
+
+    
     .contacto{
         width: 80%;
-        margin-left: 100px;
-       
+        margin-left: 60px;
+    }
+    .btn{
+        margin-left:160px;
     }
         
     .login__box{
@@ -989,14 +1019,18 @@ h2{
         height: 70rem;
         width: 80%;
         border-radius: 10px;
-        margin-left: 100px;
+        margin-left: 60px;
     }
     .description{
-        width: 55%; 
+        width: 85%; 
         height: 320px;
         margin-top: 100px;
-        margin-left: 250px;
+        margin-left: 80px;
         
+    }
+    .description_cont{
+        width: 100%;
+        height: 100%;
     }
 
     .contenido{
@@ -1009,35 +1043,61 @@ h2{
         margin-left: -500px;
         background-color: #FAEED1;
     }
+    .desc_cont_title{
+        font-size: medium;
+        margin-top: 20px;
+    }
+    .desc_cont_link{
+    padding: 10px;
+    margin-bottom: 15px;
+    margin-left: 10px;
+}
+
     hr{
         width: 70%;
     }
+    footer{
+        width: 120%;
+    }
     .footer-nav {
-        float: right;
-        
-       
+        float: left;
+        margin-left: 10px;
     }
     footer p {
         margin-top: 100px; 
+        
+    }
+    .text{
+        margin-right: 140px;
+        
     }
     .social-links {
         float:left;
         margin-top: 20px;
         margin-left: 160px;
-       
-    }
-   
+}
 }
 
     @media  only screen and (max-width: 465px){
-        .banner{
-            width: 70%;
-            margin-left: 100px;
-        }
-        .contacto{
-            width: 80%;
+        header{
+            width: 145%;
             
-           
+        }
+
+        .banner{
+            width: 150%;
+            margin-left: 10px;
+            
+        }
+        
+
+        .peliculas{
+            width: 130%;
+        }
+    
+
+        .contacto{
+            width: 90%;
         }
         .contenedor_register{
             height: 80rem;
@@ -1046,9 +1106,12 @@ h2{
             margin-left: 100px;
         }
         .login__box{
-            width: 72rem;
+            width: 100%;
             height: 80rem;
             margin-left:40px ;
+        }
+        footer{
+            width: 140%;
         }
         footer p {
             margin-top: 140px;
@@ -1056,12 +1119,9 @@ h2{
         .social-links {
             margin-top: 20px;
             margin-left:100px;
-           
         }
         .footer-nav {
             margin-left: 40px;
-            
-           
         }
         #faq{
             
@@ -1073,9 +1133,4 @@ h2{
             color: var(--primary-solid);
             font-weight: 300;
         }
-        
-
-
-
-
 }
